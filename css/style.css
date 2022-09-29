@@ -1,0 +1,74 @@
+.open-button{
+    border: none;
+    background-color: #99EDA8;
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+}
+.window{
+    display: none;
+    position: relative;
+}
+.modal-window{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    background-color: #F3F7C5;
+    padding-top: 40px;   
+}
+.modal-window p{
+    text-align: center;
+}
+.close-button{
+    border: none;
+    background-color: #F95656;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.window--visually{
+    display: block;
+}
+.task3 p{
+    margin: 30px;
+}
+.container{
+    display: flex;
+    padding-left: 30px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.green-color{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    background-color: #009722;
+    opacity: 0.1;
+}
+.yellow-color{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    background-color: #EEF945;
+    opacity: 0.1;
+}
+.red-color{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    background-color: #EC0000;
+    opacity: 0.1;
+}
+.on{
+    opacity: 1;
+}
+.switcher{
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+    border: none;
+    background-color: #6D9EFA;
+}
